@@ -1,0 +1,823 @@
+{
+    "data": {
+        "project": {
+            "apiComponents": {
+                "ApiContainer": {
+                    "id": "ApiContainer",
+                    "children": []
+                }
+            },
+            "assets": {
+                "65ca1ab2e80cd5fe0ab897d4": {
+                    "name": "logo-no-background.png",
+                    "originalname": "logo-no-background.png",
+                    "externalStorageType": "GCS",
+                    "externalName": "users/65aea26d156563d899adda78/projects/65ca1ab2e80cd5fe0ab897d1/assets/65ca1ab2e80cd5fe0ab897d4",
+                    "backendURI": "/project/65ca1ab2e80cd5fe0ab897d1/getasset/65ca1ab2e80cd5fe0ab897d4",
+                    "size": "42229",
+                    "mimetype": "image/png",
+                    "encoding": "7bit",
+                    "_id": "65ca1ab2e80cd5fe0ab897d4",
+                    "createdAt": "2024-02-11T18:21:54.266Z",
+                    "updatedAt": "2024-02-11T18:21:54.266Z",
+                    "__v": 0,
+                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/65aea26d156563d899adda78/projects/65ca1ab2e80cd5fe0ab897d1/assets/65ca1ab2e80cd5fe0ab897d4?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20240212%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20240212T132019Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=6bf82fd82ef1061c05e6001de8476c36e2aa91fb88e6d5fd0c37614346939a1109a5641be15394aecac5664cbd55f29465278aea89ab12ed3d98672eb07082dbd731b1964dc590529f57a79205f05add3c163e759d49e84d12ceba4f0be4b8816980a1a74d085a821b3cfce724b0f0b7d4882c669be5933989d4360ea93eb9060975d71a995de56f82e6101cb2d85e965f2e82b6a05d6d114b52a074719cc1ba5318baa643daa5199849db2a888e9f8c2943243bd4b34f7a737b8bba99b09f21740dc152b52bf1c6f93b5c1ede818667978af0ed3f1e887c909a7cbc6a2a6520dfcdd6733d647e74a5f1fb9a01f4352e9494084920443f767806364dc6c6cb22",
+                    "signedUrlExpirationTime": 1707916819691
+                }
+            },
+            "backendUpgradeVersion": 24,
+            "blockly": {
+                "337b0250-89cd-432e-a036-79732d6b0229": {
+                    "xml": "",
+                    "permissions": {
+                        "android": [],
+                        "ios": []
+                    },
+                    "enabledFeatures": {
+                        "location": true,
+                        "iap": false
+                    }
+                },
+                "66a938d0-1d1e-4744-9c6b-6a3ec33e173e": {
+                    "xml": "",
+                    "permissions": {
+                        "android": [],
+                        "ios": []
+                    },
+                    "enabledFeatures": {
+                        "location": true,
+                        "iap": false
+                    }
+                },
+                "6f1c1ae1-b359-44ea-8a83-ab33b97f5151": {
+                    "xml": "",
+                    "permissions": {
+                        "android": [
+                            "android.permission.CAMERA"
+                        ],
+                        "ios": [
+                            {
+                                "name": "NSCameraUsageDescription",
+                                "label": "Camera",
+                                "hint": "Describe why your app uses the camera."
+                            }
+                        ]
+                    },
+                    "enabledFeatures": {
+                        "location": true,
+                        "iap": false
+                    }
+                }
+            },
+            "categories": [
+                "Social Networking"
+            ],
+            "components": {
+                "children": [
+                    {
+                        "type": "Drawer Navigator",
+                        "translatedName": "Drawer Navigator",
+                        "reactType": "DrawerNavigator",
+                        "properties": {
+                            "DrawerPosition": "left",
+                            "TabNavigationOptions": {
+                                "tabBarVisible": true
+                            },
+                            "config": {
+                                "contentOptions": {
+                                    "drawerPosition": "left"
+                                }
+                            },
+                            "navigationOptions": {
+                                "tabBarVisible": true
+                            }
+                        },
+                        "children": [
+                            {
+                                "id": "6f1c1ae1-b359-44ea-8a83-ab33b97f5151"
+                            },
+                            {
+                                "id": "66a938d0-1d1e-4744-9c6b-6a3ec33e173e"
+                            }
+                        ],
+                        "id": "279faa22-6721-4f45-86e8-9e292eb8429a",
+                        "thunkableVersion": 444,
+                        "name": "Drawer_Navigator1"
+                    },
+                    {
+                        "id": "337b0250-89cd-432e-a036-79732d6b0229"
+                    }
+                ]
+            },
+            "figmaComponents": {},
+            "description": null,
+            "icon": null,
+            "projectName": "Profile App",
+            "settings": {
+                "teamId": null,
+                "appName": null,
+                "icon": null,
+                "autoIncrementVersion": true,
+                "ignoreNotchArea": false,
+                "notchAreaColor": null,
+                "androidVersionName": "1",
+                "androidVersionCode": 1,
+                "iosVersionNumber": "1",
+                "iosBuildNumber": "1",
+                "firebaseAPIKey": "AIzaSyA9FQOGauoK5FVEb3kgEPA5cLguiwXVuoU",
+                "firebaseDatabaseURL": "https://profile-app-e0b05-default-rtdb.firebaseio.com",
+                "stripePublishableKeyTest": "",
+                "stripePublishableKeyLive": "",
+                "stripeAccountId": null,
+                "stripeTestMode": true,
+                "isPublic": true,
+                "description": null,
+                "mobileTutorial": null,
+                "pushNotificationAndroidAppId": null,
+                "pushNotificationIOSAppId": null,
+                "pushNotificationGeolocationEnabled": null,
+                "yandexAPIKey": "",
+                "imageRecognizerServerURL": "",
+                "imageRecognizerSubscriptionKey": "",
+                "cloudName": "",
+                "cloudinaryAPIKey": "",
+                "cloudinaryAPISecret": "",
+                "permissions": {
+                    "ios": {
+                        "usageDescriptions": {
+                            "NSCameraUsageDescription": ""
+                        }
+                    }
+                },
+                "googleMapAPIKeyAndroid": null,
+                "googleMapAPIKeyIOS": null,
+                "googleOAuthiOSClientID": null,
+                "googleOAuthiOSURLScheme": null,
+                "googleOAuthWebClientID": null,
+                "appleOAuthWebClientID": null,
+                "appleOAuthWebRedirectURI": null,
+                "admobAppIdIOS": null,
+                "admobAppIdAndroid": null,
+                "admobUserTrackingUsageDescription": null,
+                "__typename": "ProjectSettings"
+            },
+            "projectSettings": {
+                "teamId": null,
+                "appName": null,
+                "icon": null,
+                "autoIncrementVersion": true,
+                "ignoreNotchArea": false,
+                "notchAreaColor": null,
+                "androidVersionName": "1",
+                "androidVersionCode": 1,
+                "iosVersionNumber": "1",
+                "iosBuildNumber": "1",
+                "firebaseAPIKey": "AIzaSyA9FQOGauoK5FVEb3kgEPA5cLguiwXVuoU",
+                "firebaseDatabaseURL": "https://profile-app-e0b05-default-rtdb.firebaseio.com",
+                "stripePublishableKeyTest": "",
+                "stripePublishableKeyLive": "",
+                "stripeAccountId": null,
+                "stripeTestMode": true,
+                "isPublic": true,
+                "description": null,
+                "mobileTutorial": null,
+                "pushNotificationAndroidAppId": null,
+                "pushNotificationIOSAppId": null,
+                "pushNotificationGeolocationEnabled": null,
+                "yandexAPIKey": "",
+                "imageRecognizerServerURL": "",
+                "imageRecognizerSubscriptionKey": "",
+                "cloudName": "",
+                "cloudinaryAPIKey": "",
+                "cloudinaryAPISecret": "",
+                "permissions": {
+                    "ios": {
+                        "usageDescriptions": {
+                            "NSCameraUsageDescription": ""
+                        }
+                    }
+                },
+                "googleMapAPIKeyAndroid": null,
+                "googleMapAPIKeyIOS": null,
+                "googleOAuthiOSClientID": null,
+                "googleOAuthiOSURLScheme": null,
+                "googleOAuthWebClientID": null,
+                "appleOAuthWebClientID": null,
+                "appleOAuthWebRedirectURI": null,
+                "admobAppIdIOS": null,
+                "admobAppIdAndroid": null,
+                "admobUserTrackingUsageDescription": null,
+                "__typename": "ProjectSettings"
+            },
+            "hasAdmob": false,
+            "hasBluetoothLowEnergy": null,
+            "hasPushNotification": false,
+            "hasAssistant": null,
+            "dataSourceLinks": [],
+            "localDataSources": [
+                {
+                    "id": "b6323290-b759-427a-9189-d5ec2dcca6ad",
+                    "dataSource": {
+                        "id": "8b022ada-68a9-410d-814b-1b0da5f9c209",
+                        "name": "Colors",
+                        "owner": "65aea26d156563d899adda78",
+                        "collections": [
+                            {
+                                "id": "7a56115b-7987-4f19-83e9-e23673a66dd4",
+                                "name": "Table 1",
+                                "label": "Table 1",
+                                "fields": [
+                                    {
+                                        "id": "6ba844c8-257e-44d1-b469-b8eb0e2b15dc",
+                                        "name": "column1",
+                                        "label": "Color Name",
+                                        "type": "STRING"
+                                    },
+                                    {
+                                        "id": "6b0e35fe-d6a5-4e81-a9f0-e500fdc07769",
+                                        "name": "column2",
+                                        "label": "R",
+                                        "type": "NUMBER"
+                                    },
+                                    {
+                                        "id": "bb7fa7bc-3d11-43c4-af94-8155f6c99cf7",
+                                        "label": "G",
+                                        "name": "column",
+                                        "type": "STRING"
+                                    },
+                                    {
+                                        "id": "10eb133d-77f8-40b8-a833-ca9e6a15befc",
+                                        "label": "B",
+                                        "name": "B",
+                                        "type": "STRING"
+                                    }
+                                ],
+                                "data": {
+                                    "edges": [
+                                        {
+                                            "cursor": "ba80b26c-cee3-455d-bd8c-4ac6e469ba09",
+                                            "node": {
+                                                "id": "cc14b552-a83e-49b4-9dcd-4300db850518",
+                                                "values": [
+                                                    {
+                                                        "fieldId": "6ba844c8-257e-44d1-b469-b8eb0e2b15dc",
+                                                        "value": "Red"
+                                                    },
+                                                    {
+                                                        "fieldId": "6b0e35fe-d6a5-4e81-a9f0-e500fdc07769",
+                                                        "value": "208"
+                                                    },
+                                                    {
+                                                        "fieldId": "bb7fa7bc-3d11-43c4-af94-8155f6c99cf7",
+                                                        "value": "2"
+                                                    },
+                                                    {
+                                                        "fieldId": "10eb133d-77f8-40b8-a833-ca9e6a15befc",
+                                                        "value": "27"
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "cursor": "971b08ba-8371-4e62-8d41-3102292b178f",
+                                            "node": {
+                                                "id": "6832d4a2-daa0-4752-a1c5-49889bfae514",
+                                                "values": [
+                                                    {
+                                                        "fieldId": "6ba844c8-257e-44d1-b469-b8eb0e2b15dc",
+                                                        "value": "Orange"
+                                                    },
+                                                    {
+                                                        "fieldId": "6b0e35fe-d6a5-4e81-a9f0-e500fdc07769",
+                                                        "value": "245"
+                                                    },
+                                                    {
+                                                        "fieldId": "bb7fa7bc-3d11-43c4-af94-8155f6c99cf7",
+                                                        "value": "165"
+                                                    },
+                                                    {
+                                                        "fieldId": "10eb133d-77f8-40b8-a833-ca9e6a15befc",
+                                                        "value": "35"
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "cursor": "bb8e3da0-2154-43a8-9dec-b13a502c7e45",
+                                            "node": {
+                                                "id": "9d03c91e-c6b5-4bcd-a1c6-484e242f9123",
+                                                "values": [
+                                                    {
+                                                        "fieldId": "6ba844c8-257e-44d1-b469-b8eb0e2b15dc",
+                                                        "value": "Yellow"
+                                                    },
+                                                    {
+                                                        "fieldId": "6b0e35fe-d6a5-4e81-a9f0-e500fdc07769",
+                                                        "value": "248"
+                                                    },
+                                                    {
+                                                        "fieldId": "bb7fa7bc-3d11-43c4-af94-8155f6c99cf7",
+                                                        "value": "231"
+                                                    },
+                                                    {
+                                                        "fieldId": "10eb133d-77f8-40b8-a833-ca9e6a15befc",
+                                                        "value": "28"
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "cursor": "baa711a6-06fe-4d08-b33f-53ae7089acba",
+                                            "node": {
+                                                "id": "79c86905-659f-4250-8861-1a5e8e32d66d",
+                                                "values": [
+                                                    {
+                                                        "fieldId": "6ba844c8-257e-44d1-b469-b8eb0e2b15dc",
+                                                        "value": "Brown"
+                                                    },
+                                                    {
+                                                        "fieldId": "6b0e35fe-d6a5-4e81-a9f0-e500fdc07769",
+                                                        "value": "139"
+                                                    },
+                                                    {
+                                                        "fieldId": "bb7fa7bc-3d11-43c4-af94-8155f6c99cf7",
+                                                        "value": "87"
+                                                    },
+                                                    {
+                                                        "fieldId": "10eb133d-77f8-40b8-a833-ca9e6a15befc",
+                                                        "value": "42"
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "cursor": "622c3ed2-62d2-4fdf-a845-6c277b792121",
+                                            "node": {
+                                                "id": "07e7cea4-1760-4756-b8fe-8eae2242acb6",
+                                                "values": [
+                                                    {
+                                                        "fieldId": "6ba844c8-257e-44d1-b469-b8eb0e2b15dc",
+                                                        "value": "Green"
+                                                    },
+                                                    {
+                                                        "fieldId": "6b0e35fe-d6a5-4e81-a9f0-e500fdc07769",
+                                                        "value": "126"
+                                                    },
+                                                    {
+                                                        "fieldId": "bb7fa7bc-3d11-43c4-af94-8155f6c99cf7",
+                                                        "value": "211"
+                                                    },
+                                                    {
+                                                        "fieldId": "10eb133d-77f8-40b8-a833-ca9e6a15befc",
+                                                        "value": "33"
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "cursor": "3203c9eb-88d7-40f7-9132-cf83841c5362",
+                                            "node": {
+                                                "id": "8e3d261e-0bd4-4de2-970c-c18f42fdfdd1",
+                                                "values": [
+                                                    {
+                                                        "fieldId": "6ba844c8-257e-44d1-b469-b8eb0e2b15dc",
+                                                        "value": "Dark Green"
+                                                    },
+                                                    {
+                                                        "fieldId": "6b0e35fe-d6a5-4e81-a9f0-e500fdc07769",
+                                                        "value": "65"
+                                                    },
+                                                    {
+                                                        "fieldId": "bb7fa7bc-3d11-43c4-af94-8155f6c99cf7",
+                                                        "value": "117"
+                                                    },
+                                                    {
+                                                        "fieldId": "10eb133d-77f8-40b8-a833-ca9e6a15befc",
+                                                        "value": "5"
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "cursor": "97f9a434-9a40-4477-abb7-6aa3152ab5a4",
+                                            "node": {
+                                                "id": "b8e43a57-2721-43ff-876f-05ac8050d175",
+                                                "values": [
+                                                    {
+                                                        "fieldId": "6ba844c8-257e-44d1-b469-b8eb0e2b15dc",
+                                                        "value": "Light Purple"
+                                                    },
+                                                    {
+                                                        "fieldId": "6b0e35fe-d6a5-4e81-a9f0-e500fdc07769",
+                                                        "value": "189"
+                                                    },
+                                                    {
+                                                        "fieldId": "bb7fa7bc-3d11-43c4-af94-8155f6c99cf7",
+                                                        "value": "16"
+                                                    },
+                                                    {
+                                                        "fieldId": "10eb133d-77f8-40b8-a833-ca9e6a15befc",
+                                                        "value": "224"
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "cursor": "5c12c7a7-8bf0-4d63-b1f2-30d62928aafd",
+                                            "node": {
+                                                "id": "37ed0f2b-35b9-4b7c-990f-e7cf2bdc4664",
+                                                "values": [
+                                                    {
+                                                        "fieldId": "6ba844c8-257e-44d1-b469-b8eb0e2b15dc",
+                                                        "value": "Dark Purple"
+                                                    },
+                                                    {
+                                                        "fieldId": "6b0e35fe-d6a5-4e81-a9f0-e500fdc07769",
+                                                        "value": "144"
+                                                    },
+                                                    {
+                                                        "fieldId": "bb7fa7bc-3d11-43c4-af94-8155f6c99cf7",
+                                                        "value": "19"
+                                                    },
+                                                    {
+                                                        "fieldId": "10eb133d-77f8-40b8-a833-ca9e6a15befc",
+                                                        "value": "254"
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "cursor": "48837ff1-b8a8-4db6-814e-d0585744a71d",
+                                            "node": {
+                                                "id": "5afa244f-6ffc-4615-8efd-62378f3fcfe1",
+                                                "values": [
+                                                    {
+                                                        "fieldId": "6ba844c8-257e-44d1-b469-b8eb0e2b15dc",
+                                                        "value": "Dark Blue"
+                                                    },
+                                                    {
+                                                        "fieldId": "6b0e35fe-d6a5-4e81-a9f0-e500fdc07769",
+                                                        "value": "74"
+                                                    },
+                                                    {
+                                                        "fieldId": "bb7fa7bc-3d11-43c4-af94-8155f6c99cf7",
+                                                        "value": "144"
+                                                    },
+                                                    {
+                                                        "fieldId": "10eb133d-77f8-40b8-a833-ca9e6a15befc",
+                                                        "value": "226"
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "cursor": "cfa7f5ed-2ae3-420c-b77f-8457ce986b80",
+                                            "node": {
+                                                "id": "f471548f-8869-402a-b8bb-4b32cb46a5ef",
+                                                "values": [
+                                                    {
+                                                        "fieldId": "6ba844c8-257e-44d1-b469-b8eb0e2b15dc",
+                                                        "value": "Light Blue"
+                                                    },
+                                                    {
+                                                        "fieldId": "6b0e35fe-d6a5-4e81-a9f0-e500fdc07769",
+                                                        "value": "80"
+                                                    },
+                                                    {
+                                                        "fieldId": "bb7fa7bc-3d11-43c4-af94-8155f6c99cf7",
+                                                        "value": "227"
+                                                    },
+                                                    {
+                                                        "fieldId": "10eb133d-77f8-40b8-a833-ca9e6a15befc",
+                                                        "value": "194"
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "cursor": "fa401258-0a46-4cab-b13b-8fd5de8b6d2c",
+                                            "node": {
+                                                "id": "63b5861c-51d0-44ef-9ca9-97cbf88f08cb",
+                                                "values": [
+                                                    {
+                                                        "fieldId": "6ba844c8-257e-44d1-b469-b8eb0e2b15dc",
+                                                        "value": "Light Green"
+                                                    },
+                                                    {
+                                                        "fieldId": "6b0e35fe-d6a5-4e81-a9f0-e500fdc07769",
+                                                        "value": "184"
+                                                    },
+                                                    {
+                                                        "fieldId": "bb7fa7bc-3d11-43c4-af94-8155f6c99cf7",
+                                                        "value": "233"
+                                                    },
+                                                    {
+                                                        "fieldId": "10eb133d-77f8-40b8-a833-ca9e6a15befc",
+                                                        "value": "134"
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "cursor": "90a83269-0ab2-47e5-a1f2-c12982d02e47",
+                                            "node": {
+                                                "id": "4bf00a39-76f4-44a0-a6fe-201162d05850",
+                                                "values": [
+                                                    {
+                                                        "fieldId": "6ba844c8-257e-44d1-b469-b8eb0e2b15dc",
+                                                        "value": "Dark Grey"
+                                                    },
+                                                    {
+                                                        "fieldId": "6b0e35fe-d6a5-4e81-a9f0-e500fdc07769",
+                                                        "value": "74"
+                                                    },
+                                                    {
+                                                        "fieldId": "bb7fa7bc-3d11-43c4-af94-8155f6c99cf7",
+                                                        "value": "74"
+                                                    },
+                                                    {
+                                                        "fieldId": "10eb133d-77f8-40b8-a833-ca9e6a15befc",
+                                                        "value": "74"
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "cursor": "102a1899-837e-4131-9dc1-5fc2109cf1a4",
+                                            "node": {
+                                                "id": "39d88359-3bb6-4025-a636-4cecb5637e57",
+                                                "values": [
+                                                    {
+                                                        "fieldId": "6ba844c8-257e-44d1-b469-b8eb0e2b15dc",
+                                                        "value": "Light Grey"
+                                                    },
+                                                    {
+                                                        "fieldId": "6b0e35fe-d6a5-4e81-a9f0-e500fdc07769",
+                                                        "value": "155"
+                                                    },
+                                                    {
+                                                        "fieldId": "bb7fa7bc-3d11-43c4-af94-8155f6c99cf7",
+                                                        "value": "155"
+                                                    },
+                                                    {
+                                                        "fieldId": "10eb133d-77f8-40b8-a833-ca9e6a15befc",
+                                                        "value": "155"
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "cursor": "aaf4497e-a4e5-497b-8e3c-e1d2601440a8",
+                                            "node": {
+                                                "id": "fcfe2134-ee99-478f-9b4e-96dbe82a8b9e",
+                                                "values": [
+                                                    {
+                                                        "fieldId": "6ba844c8-257e-44d1-b469-b8eb0e2b15dc",
+                                                        "value": "White"
+                                                    },
+                                                    {
+                                                        "fieldId": "6b0e35fe-d6a5-4e81-a9f0-e500fdc07769",
+                                                        "value": "255"
+                                                    },
+                                                    {
+                                                        "fieldId": "bb7fa7bc-3d11-43c4-af94-8155f6c99cf7",
+                                                        "value": "255"
+                                                    },
+                                                    {
+                                                        "fieldId": "10eb133d-77f8-40b8-a833-ca9e6a15befc",
+                                                        "value": "255"
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "configuration": {
+                            "id": "21d08553-669e-402c-a00d-27bc755fe977",
+                            "name": "Colors",
+                            "owner": "65aea26d156563d899adda78",
+                            "type": "LOCAL"
+                        }
+                    }
+                },
+                {
+                    "id": "f2d5474d-957b-4721-bca4-fe23aed918f1",
+                    "dataSource": {
+                        "id": "9990fa94-5156-4b41-b1a7-c40fa242a03d",
+                        "name": "Zodiac Signs",
+                        "owner": "65aea26d156563d899adda78",
+                        "collections": [
+                            {
+                                "id": "6ccb6841-691f-43a7-be92-21dbf7eb3c99",
+                                "name": "Table 1",
+                                "label": "Table 1",
+                                "fields": [
+                                    {
+                                        "id": "511f2577-0f98-443f-9efe-1d9830d0f660",
+                                        "name": "column1",
+                                        "label": "Sign Name",
+                                        "type": "STRING"
+                                    }
+                                ],
+                                "data": {
+                                    "edges": [
+                                        {
+                                            "cursor": "da831dcb-3610-4795-a474-189cab9b72a9",
+                                            "node": {
+                                                "id": "d0f89dae-c557-46ce-a3ed-40ea486c5325",
+                                                "values": [
+                                                    {
+                                                        "fieldId": "511f2577-0f98-443f-9efe-1d9830d0f660",
+                                                        "value": "Aries"
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "cursor": "d9921a1a-17b1-431a-8b4d-cbd8ffaec2a5",
+                                            "node": {
+                                                "id": "6173fa44-1294-4a68-98df-1df0c63c4b58",
+                                                "values": [
+                                                    {
+                                                        "fieldId": "511f2577-0f98-443f-9efe-1d9830d0f660",
+                                                        "value": "Taurus"
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "cursor": "5a64c5d6-de76-4b80-8035-6949d021db6f",
+                                            "node": {
+                                                "id": "b1c0c2de-5f0c-4fa8-93b7-f324f589cbdf",
+                                                "values": [
+                                                    {
+                                                        "fieldId": "511f2577-0f98-443f-9efe-1d9830d0f660",
+                                                        "value": "Gemini"
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "cursor": "4dabfba1-fe25-4d12-a7ec-bef1a3c6b5f8",
+                                            "node": {
+                                                "id": "1628961e-c377-4921-9812-5ae86eb2c5d1",
+                                                "values": [
+                                                    {
+                                                        "fieldId": "511f2577-0f98-443f-9efe-1d9830d0f660",
+                                                        "value": "Cancer"
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "cursor": "330d69e9-899c-410a-be84-da9406841fba",
+                                            "node": {
+                                                "id": "96cc50a0-2a9b-4ebf-938a-ea56732cb729",
+                                                "values": [
+                                                    {
+                                                        "fieldId": "511f2577-0f98-443f-9efe-1d9830d0f660",
+                                                        "value": "Leo"
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "cursor": "bbc6fe5e-7335-42f4-be1f-9d34cd26dff8",
+                                            "node": {
+                                                "id": "e5a4f363-c6b2-4b12-8b65-9382e2afab09",
+                                                "values": [
+                                                    {
+                                                        "fieldId": "511f2577-0f98-443f-9efe-1d9830d0f660",
+                                                        "value": "Virgo"
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "cursor": "e51e0d07-640b-46b1-99aa-4fe537e0ebc7",
+                                            "node": {
+                                                "id": "dc3c817a-592b-4ee1-9c67-dcd51180b331",
+                                                "values": [
+                                                    {
+                                                        "fieldId": "511f2577-0f98-443f-9efe-1d9830d0f660",
+                                                        "value": "Libra"
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "cursor": "0f50853e-bdcf-48cf-8328-827599c52000",
+                                            "node": {
+                                                "id": "802a226b-6d4a-4f9b-9146-f79807ad8f8d",
+                                                "values": [
+                                                    {
+                                                        "fieldId": "511f2577-0f98-443f-9efe-1d9830d0f660",
+                                                        "value": "Scorpio"
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "cursor": "6d8d188f-9179-4a76-994a-8349370b54d9",
+                                            "node": {
+                                                "id": "778f0dcc-817a-4676-96b2-460088d6b1d6",
+                                                "values": [
+                                                    {
+                                                        "fieldId": "511f2577-0f98-443f-9efe-1d9830d0f660",
+                                                        "value": "Sagittarius"
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "cursor": "ec6e8660-e5cc-4dd7-956a-dbc287669c62",
+                                            "node": {
+                                                "id": "b450b09b-087c-45d9-b15e-1592e10165ed",
+                                                "values": [
+                                                    {
+                                                        "fieldId": "511f2577-0f98-443f-9efe-1d9830d0f660",
+                                                        "value": "Capricorn"
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "cursor": "6597a366-3d99-4ae0-8bb2-7939098ec2dc",
+                                            "node": {
+                                                "id": "24f9d2e6-2dd6-4fa8-8581-56d6de65ed13",
+                                                "values": [
+                                                    {
+                                                        "fieldId": "511f2577-0f98-443f-9efe-1d9830d0f660",
+                                                        "value": "Aquarius"
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "cursor": "5c1c4431-93a1-4cd7-b46c-819084a7c852",
+                                            "node": {
+                                                "id": "4173c34a-624a-4313-9d37-b1e9ccf5ffda",
+                                                "values": [
+                                                    {
+                                                        "fieldId": "511f2577-0f98-443f-9efe-1d9830d0f660",
+                                                        "value": "Pisces"
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "configuration": {
+                            "id": "e691832d-46fe-4dd2-9bd3-202e6085c4ab",
+                            "name": "Zodiac Signs",
+                            "owner": "65aea26d156563d899adda78",
+                            "type": "LOCAL"
+                        }
+                    }
+                }
+            ],
+            "customProperties": [],
+            "modules": [],
+            "usesDragDropUi": true,
+            "totalCopy": "0",
+            "totalStar": "0",
+            "starAction": "star",
+            "variables": {
+                "883d8d43-30d9-4c04-9844-6baf98cc88bb": {
+                    "scope": "APP",
+                    "name": "currentlySigningUp",
+                    "screenId": "337b0250-89cd-432e-a036-79732d6b0229"
+                },
+                "b2544fa9-c997-4d1c-92af-5660533fb480": {
+                    "scope": "STORED",
+                    "name": "email",
+                    "screenId": "337b0250-89cd-432e-a036-79732d6b0229"
+                },
+                "99601485-f5ec-4d2d-95fb-a889803e7747": {
+                    "scope": "STORED",
+                    "name": "password",
+                    "screenId": "337b0250-89cd-432e-a036-79732d6b0229"
+                },
+                "ce1a364d-eda1-4035-9476-f058eb63f7ac": {
+                    "scope": "APP",
+                    "name": "session email",
+                    "screenId": "337b0250-89cd-432e-a036-79732d6b0229"
+                },
+                "52494fae-f57c-4ac0-a3bc-4857f703e0d4": {
+                    "scope": "APP",
+                    "name": "user ID",
+                    "screenId": "337b0250-89cd-432e-a036-79732d6b0229"
+                }
+            },
+            "defaultDesignerDevice": "PHONE",
+            "defaultDesignerOrientation": "PORTRAIT",
+            "schemaVersion": 2,
+            "organization": null,
+            "__typename": "Project"
+        }
+    }
+}
