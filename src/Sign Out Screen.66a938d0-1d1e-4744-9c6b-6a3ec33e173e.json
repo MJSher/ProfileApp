@@ -38,13 +38,52 @@
         "TabNavigationOptions": {
             "tabBarVisible": true
         },
+        "TabNavigatorIcon": {},
+        "DrawerNavigationOptions": {},
+        "StackNavigationOptions": {
+            "headerStyle": {}
+        },
         "ScreenOrientation": "portrait",
         "DesignerHeight": 667,
         "DesignerWidth": 375,
         "ResponsiveWidth": 375,
-        "isSimple": true
+        "isSimple": true,
+        "navigationOptions": {
+            "headerStyle": {}
+        },
+        "tabNavigationOptions": {}
     },
     "children": [
+        {
+            "type": "AdMobBanner",
+            "label": "AdMob Banner",
+            "translatedName": "AdMob Banner",
+            "properties": {
+                "Visible": true,
+                "AdUnitID": "ca-app-pub-3940256099942544/6300978111",
+                "AdUnitID_iOS": "ca-app-pub-3940256099942544/6300978111",
+                "TestMode": true,
+                "Width": 375,
+                "Height": 32,
+                "X": 0,
+                "ParentId": "66a938d0-1d1e-4744-9c6b-6a3ec33e173e",
+                "Y": 0,
+                "RelativeX": 0,
+                "RelativeY": 0,
+                "position": "absolute",
+                "edgeOffsets": 0,
+                "style": {
+                    "position": "absolute",
+                    "left": "24.133333333333333%",
+                    "top": "57.59932533733134%",
+                    "display": "flex"
+                }
+            },
+            "children": [],
+            "id": "baff6913-2295-4002-b94b-868a5bb6743d",
+            "thunkableVersion": 446,
+            "name": "AdMob_Banner1"
+        },
         {
             "type": "Image",
             "translatedName": "Image",
@@ -81,6 +120,7 @@
                     "top": "63.49853764808293%",
                     "display": "flex"
                 },
+                "capInsets": {},
                 "ParentId": "66a938d0-1d1e-4744-9c6b-6a3ec33e173e",
                 "position": "absolute",
                 "edgeOffsets": 592
@@ -221,6 +261,7 @@
                     "color": "rgba(0, 0, 0, 1)",
                     "fontSize": 18,
                     "fontStyle": "normal",
+                    "textShadowOffset": {},
                     "letterSpacing": 0,
                     "textDecorationLine": "none",
                     "textDecorationStyle": "solid",

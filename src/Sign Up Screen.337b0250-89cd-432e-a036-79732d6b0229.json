@@ -38,11 +38,20 @@
         "TabNavigationOptions": {
             "tabBarVisible": true
         },
+        "TabNavigatorIcon": {},
+        "DrawerNavigationOptions": {},
+        "StackNavigationOptions": {
+            "headerStyle": {}
+        },
         "ScreenOrientation": "portrait",
         "DesignerHeight": 667,
         "DesignerWidth": 375,
         "ResponsiveWidth": 375,
-        "isSimple": true
+        "isSimple": true,
+        "navigationOptions": {
+            "headerStyle": {}
+        },
+        "tabNavigationOptions": {}
     },
     "children": [
         {
@@ -81,6 +90,7 @@
                     "top": "79.03163619171416%",
                     "display": "flex"
                 },
+                "capInsets": {},
                 "ParentId": "337b0250-89cd-432e-a036-79732d6b0229",
                 "position": "absolute",
                 "edgeOffsets": 29
@@ -103,7 +113,7 @@
                 "Color": "rgba(0, 0, 0, 1)",
                 "Height": 110,
                 "Width": 230,
-                "Visible": false,
+                "Visible": true,
                 "X": 0,
                 "Y": 532,
                 "RelativeX": 0,
@@ -113,6 +123,7 @@
                     "color": "rgba(0, 0, 0, 1)",
                     "fontSize": 18,
                     "fontStyle": "normal",
+                    "textShadowOffset": {},
                     "letterSpacing": 0,
                     "textDecorationLine": "none",
                     "textDecorationStyle": "solid",
@@ -143,7 +154,7 @@
                     "left": "3.1623931623931623%",
                     "top": "79.64431061222862%",
                     "lineHeight": 1,
-                    "display": "none"
+                    "display": "flex"
                 },
                 "ParentId": "337b0250-89cd-432e-a036-79732d6b0229",
                 "position": "absolute",
@@ -343,6 +354,7 @@
                             "color": "rgba(0, 0, 0, 1)",
                             "fontSize": 16,
                             "fontStyle": "normal",
+                            "textShadowOffset": {},
                             "letterSpacing": 0,
                             "textDecorationLine": "none",
                             "textDecorationStyle": "solid",
@@ -414,6 +426,7 @@
                             "color": "rgba(0, 0, 0, 1)",
                             "fontSize": 18,
                             "fontStyle": "normal",
+                            "textShadowOffset": {},
                             "letterSpacing": 0,
                             "textDecorationLine": "none",
                             "textDecorationStyle": "solid",
@@ -480,6 +493,7 @@
                     "color": "rgba(0, 0, 0, 1)",
                     "fontSize": 16,
                     "fontStyle": "normal",
+                    "textShadowOffset": {},
                     "letterSpacing": 0,
                     "textDecorationLine": "none",
                     "textDecorationStyle": "solid",
@@ -546,6 +560,7 @@
                     "color": "rgba(0, 0, 0, 1)",
                     "fontSize": 16,
                     "fontStyle": "normal",
+                    "textShadowOffset": {},
                     "letterSpacing": 0,
                     "textDecorationLine": "none",
                     "textDecorationStyle": "solid",
@@ -615,6 +630,7 @@
                     "color": "rgba(0, 0, 0, 1)",
                     "fontSize": 18,
                     "fontStyle": "normal",
+                    "textShadowOffset": {},
                     "letterSpacing": 0,
                     "textDecorationLine": "none",
                     "textDecorationStyle": "solid",
@@ -681,6 +697,7 @@
                     "color": "rgba(0, 0, 0, 1)",
                     "fontSize": 18,
                     "fontStyle": "normal",
+                    "textShadowOffset": {},
                     "letterSpacing": 0,
                     "textDecorationLine": "none",
                     "textDecorationStyle": "solid",
@@ -747,6 +764,7 @@
                     "color": "rgba(0, 0, 0, 1)",
                     "fontSize": 18,
                     "fontStyle": "normal",
+                    "textShadowOffset": {},
                     "letterSpacing": 0,
                     "textDecorationLine": "none",
                     "textDecorationStyle": "solid",
